@@ -12,10 +12,12 @@ import vaga3 from "./img/vaga3.jpg"
 
 export default function Home() {
     return (
-        <div class="mural-vagas">
-                    <h3>O Deu Match chegou para quebrar as barreiras que existem entre candidato e empregador. Atualmente existem inúmeras perguntas e testes que são realizadas nos sites de emprego, que geram ao candidato diversas dúvidas, feedback de recusa feitos por robô, falta de humanização... chega disso, o Deu Match irá mudar este conceito, implementando apenas as informações essenciais para o candidato e permitindo ao recrutador inserir requisitos chaves para a vaga.Recrutador postou, candidato gostou? O match rolou!</h3>
+        <div className="mural-vagas">
+            <div className="cabecalho-descricao">
+                    <h3>O Deu Match chegou para quebrar as barreiras que existem entre candidato e empregador. Atualmente existem inúmeras perguntas e testes que são realizadas nos sites de emprego, que geram ao candidato diversas dúvidas, feedback de recusa feitos por robô, falta de humanização... chega disso, o Deu Match irá mudar este conceito, implementando apenas as informações essenciais para o candidato e permitindo ao recrutador inserir requisitos chaves para a vaga. Recrutador postou, candidato gostou? O match rolou!</h3>
+            </div>
             <h3>Mural de vagas</h3>
-            <section class="vagas">
+            <section className="vagas">
                 <div>
                     <h4>Programador Front-End JR</h4>
                     <img src={vaga1} alt="programando códigos"/>

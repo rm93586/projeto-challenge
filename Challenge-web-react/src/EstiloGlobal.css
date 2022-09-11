@@ -6,6 +6,20 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
+.cabecalho-descricao h3{
+  color: #000000;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
 header img {
     width: 200px;
     display: block;

@@ -2,11 +2,13 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import "./Cadastro.css";
+
 export default function Cadastro() {
     return (
         <>
-        <div class="form">
-            <div id="menu-forms">
+        <div className="formCadastro">
+            <div id="menu-cadastro">
                 <p><Link to="/cadastro/candidato">CANDIDATO</Link></p>
                 <p><Link to="/cadastro/recrutador">RECRUTADOR</Link></p>
             </div>

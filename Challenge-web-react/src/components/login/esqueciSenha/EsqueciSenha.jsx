@@ -3,9 +3,9 @@ import React from "react";
 export default function EsqueciSenha() {
     return (
         <>
-        <div class="recupera-page">
-            <div class="form">
-                <form class="recupera-form" action="troca_senha.html" method="post">
+        <div className="recupera-page">
+            <div className="form">
+                <form className="recupera-form" action="troca_senha.html" method="post">
                     <fieldset>
                         <legend>
                             Insira seu e-mail abaixo para recuperação de senha
