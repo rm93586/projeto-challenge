@@ -45,8 +45,8 @@ function validarSenha(senha, confirmarSenha) {
     }
 }
 
-function validarCampos (dataNascimento, nome, pretencaoSalarial, formacao, softSkill, hardSkill, experiencia) {
-    if (dataNascimento == "" || nome == "" || pretencaoSalarial == "" || formacao == "" || softSkill == "" || hardSkill == "" || experiencia == "") {
+function validarCampos (dataNascimento, nome, pretencaoSalarial, formacao, softSkill, hardSkill, experiencia, cidade) {
+    if (dataNascimento == "" || nome == "" || pretencaoSalarial == "" || formacao == "" || softSkill == "" || hardSkill == "" || experiencia == "" || cidade == "") {
         return false
     } else {
         return true
@@ -62,6 +62,7 @@ function validarCadastro() {
     const cpf = document.getElementById("cpf").value;
     const email = document.getElementById("email").value;
     const cep = document.getElementById("cep").value;
+    const cidade = document.getElementById("cidade").value;
     const senha = document.getElementById("senha").value;
     const confirmarSenha = document.getElementById("confirmarSenha").value;
     const estado = document.getElementById("estado").value;
@@ -73,7 +74,7 @@ function validarCadastro() {
     const experiencia = document.getElementById("experienciaProfissional").value;
     const pretencaoSalarial = document.getElementById("pretensaoSalarial").value;
 
-    if (validarTelefone(telefone) && validarCpf(cpf) && validarEmail(email) && validarCep(cep) && validarSenha(senha, confirmarSenha) && validarEstado(estado) && validarCampos(dataNascimento, nome, pretencaoSalarial, formacao, softSkill, hardSkill, experiencia)) {
+    if (validarTelefone(telefone) && validarCpf(cpf) && validarEmail(email) && validarCep(cep) && validarSenha(senha, confirmarSenha) && validarEstado(estado) && validarCampos(dataNascimento, nome, pretencaoSalarial, formacao, softSkill, hardSkill, experiencia, cidade)) {
         console.log("campos corretos")
         document.getElementById("ErroCandidato").innerHTML = ""
         document.getElementById("formCandidato").submit();

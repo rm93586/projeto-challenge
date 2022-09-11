@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./EsqueciSenha.css";
+
 export default function EsqueciSenha() {
     return (
         <>
@@ -7,7 +9,7 @@ export default function EsqueciSenha() {
             <div className="form">
                 <form className="recupera-form" action="troca_senha.html" method="post">
                     <fieldset>
-                        <legend>
+                        <legend id="esqueci_senha_texto">
                             Insira seu e-mail abaixo para recuperação de senha
                         </legend>
                         <div>

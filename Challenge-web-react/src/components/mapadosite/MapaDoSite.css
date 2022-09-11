@@ -4,12 +4,7 @@
     position: relative;
 }
 
-.mapa_esqueci_senha {
-    position: relative;
-    left: 2%;
-}
-
-.mapa_candidato, .mapa_recrutador {
+.mapa_candidato, .mapa_recrutador, .mapa_minhaConta, .mapa_esqueci_senha {
     position: relative;
     left: 2%;
 }

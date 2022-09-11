@@ -1,0 +1,58 @@
+
+.minhaconta {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.minhaconta_lista ul {
+    list-style: none;
+}
+
+
+.login-form input {
+    
+    background: #f2f2f2;
+    width: 70%;
+    border: 0;
+    margin: 10px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+  }
+ #button-login {
+    
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-color: #fc2c6e;
+    width: 50%;
+    min-width: 120px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+#button-login:hover{
+    background-color:#fa6594;
+}
+
+#menu-forms a{  
+  margin: 10px;  
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fc2c6e;
+  font-weight:bold;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  }
+#menu-forms p a:hover{
+    color: #fa6594;
+}
