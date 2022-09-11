@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Rodape() {
     return (
-        <div>
-            <h1>Rodapé</h1>
-        </div>
+        <footer>
+            <h3>Todos os direitos NÃO reservado</h3>
+        </footer>
     );
 }

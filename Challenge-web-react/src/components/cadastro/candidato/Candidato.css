@@ -32,6 +32,47 @@
     
 }
 
+.numero_e_complemento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .numero {
+    width: 20%;
+  }
+
+.estado_e_cidade {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    right: 4%;
+  }
+
+.estado_e_cidade select{
+    width: 20%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.estado_e_cidade input {
+  width: 100%;
+}
+
+.estado_e_cidade label, .numero_e_complemento label {
+  position: relative;
+  top: 12px;
+}
+
+#ErroCandidato {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  
+}
 
 #button-login {
     

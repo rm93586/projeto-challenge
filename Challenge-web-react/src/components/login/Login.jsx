@@ -30,6 +30,7 @@ for(var contador = 0; contador < listaEmails.length; contador++) {
 
             if (variavelSenha.value === listaSenhas[contador]) {
                 console.log("Login efetuado com sucesso!")
+                document.getElementById("formLogin").submit();
                 
                 break;
 
@@ -48,13 +49,6 @@ for(var contador = 0; contador < listaEmails.length; contador++) {
 }
 }
 
-function senhaErrada(){
-    if(document.getElementById("victory").value == "victory")
-        return true;
-    else 
-        document.getElementById("Erro").innerHTML = "Os dados da conta estão inválidos"
-        return false;
-}
 
 
 
@@ -65,10 +59,11 @@ export default function Login() {
         <div class="login-page">
             <div class="form">
                 <p>Exemplo: Conta1@fiap.com.br e senha 111</p>
-                <div id="Erro"></div>
-                <form className="login-form" action="login.html" method="post">
+                <form className="login-form" id="formLogin" action="/login/minhaConta">
                     <fieldset>
+                        
                         <legend>
+                            <br/>
                             Login
                         </legend>
                         <div>
@@ -80,6 +75,7 @@ export default function Login() {
                         <div>
                             <input type="password" name="userPass" id="senha" placeholder="Digite a senha" required/>
                         </div>
+                        <div id="Erro"></div>
                         <div>
                             <input type="button" value="Entrar" id="button-login" onClick={validarLogin}/>
                         </div>

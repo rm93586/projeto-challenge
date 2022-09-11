@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 //Diretório de páginas
 import Home from "../components/home/Home";
 import Login from "../components/login/Login";
+    import MinhaConta from "../components/login/minhaConta/MinhaConta";
     import EsqueciSenha from "../components/login/esqueciSenha/EsqueciSenha";
 import Cadastro from "../components/cadastro/Cadastro";
     import Candidato from "../components/cadastro/candidato/Candidato";
@@ -18,6 +19,7 @@ export default function MainRoutes() {
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/login" element={<Login/>} />
+        <Route path="/login/minhaConta" element={<MinhaConta/>} />
         <Route path="/login/esqueciSenha" element={<EsqueciSenha/>} />
       <Route path="/cadastro" element={<Cadastro/>} />
         <Route path="/cadastro/candidato" element={<Candidato/>} />
