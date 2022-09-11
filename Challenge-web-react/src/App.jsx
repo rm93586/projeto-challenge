@@ -4,6 +4,8 @@ import Rodape from "./components/rodape/Rodape";
 
 import MainRoutes from "./routes/MainRoutes"
 
+import "./EstiloGlobal.css";
+
 export default function App() {
     return (
         <div>

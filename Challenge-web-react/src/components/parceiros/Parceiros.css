@@ -1,0 +1,28 @@
+.parceiros{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+    
+    .parceiros div{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    }
+    
+    .parceiros img{
+    width: 200px;
+    padding: 50px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    display:block;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    transition: all .5s;
+    border: 10px solid transparent;
+    }
+
+   .parceiros img:hover{
+      border: 10px solid #fc2c6e;
+      border-radius: 50px;
+    }
+    

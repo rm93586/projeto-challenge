@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./Recrutador.css"
+
 export default function Recrutador() {
     return (
         <>
-        <form class="form" action="./recrutador.html" method="post">
+        <form class="formRecrutador" action="./recrutador.html" method="post">
         <p>Formulário para inserção dos dados do recrutador.</p>
 
         <div class="recrutador">

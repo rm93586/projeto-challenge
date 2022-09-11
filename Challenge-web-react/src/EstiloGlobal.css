@@ -1,0 +1,55 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+header img {
+    width: 200px;
+    display: block;
+    margin: auto;
+  }
+
+header h1{
+  background-color: #fc2c6e;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+}
+
+
+#menu-topo ul{
+    list-style: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ff6e9c;
+
+}
+
+#menu-topo ul li{
+display: inline-block;
+}
+
+#menu-topo ul li a{  
+    font-size: 14px;  
+    padding: 10px 10px;
+    margin-right: 25px;
+    margin-left: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    background-color: #ff6e9c;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+  }
+
+#menu-topo a:hover{
+  background-color:#fc3675;
+  border-radius: 10px;
+}

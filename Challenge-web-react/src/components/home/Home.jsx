@@ -2,6 +2,8 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
+import "./Home.css"
+
 
 //import de imagens
 import vaga1 from "./img/vaga1.jpg"

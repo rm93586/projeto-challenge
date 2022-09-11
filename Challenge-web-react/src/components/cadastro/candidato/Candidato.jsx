@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./Candidato.css";
+
 export default function Candidato() {
     return (
         <>
-        <form class="form" action="./candidato.html" method="post">
+        <form class="formCandidato" action="./candidato.html" method="post">
     <div class="candidato">
         <label for="nmCandidatoId">Nome</label>
         <div class="nome">

@@ -1,0 +1,60 @@
+.formCandidato {
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   
+    width: 40%;
+    margin: auto;
+    padding: 4% 0;
+  
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+
+.formCandidato p{
+    font-weight: bold;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 22px;
+}
+
+.candidato input{
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+    
+}
+
+.candidato{
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+
+#button-login {
+    
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #fc2c6e;
+    width: 30%;
+    min-width: 120px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 20px;
+    border:0;
+  }
+#button-login:hover{
+    background-color:#fa6594;
+}
+  
+#info-cadastro{
+  width: 50%;
+  margin: 30px auto 30px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
