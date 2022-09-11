@@ -1,0 +1,90 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+body{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+header h1{
+background-color: #fc2c6e;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+font-size: 18px;
+padding: 10px;
+letter-spacing: 0.1rem;
+font-weight: bold;
+}
+
+#pagina-inicial{  
+list-style: none;
+margin-bottom: 20px;
+padding: 15px;
+background-color: #ff6e9c;
+}
+
+#pagina-inicial a{  
+font-size: 14px;  
+padding: 10px 10px;
+margin-right: 25px;
+margin-left: 15px;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 0.1rem;
+background-color: #ff6e9c;
+color: #FFFFFF;
+text-align: center;
+cursor: pointer;
+}
+
+#pagina-inicial a:hover{
+background-color:#fc3675;
+border-radius: 10px;
+}
+#logo-img {
+width: 200px;
+display: block;
+margin: auto;
+}
+
+.form {
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ 
+  width: 30%;
+  margin: auto;
+  padding: 4% 0;
+
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+#menu-forms p{
+  margin: 20px;
+  background-color: #fc2c6e;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#menu-forms a{  
+margin: 10px;  
+text-decoration: none;
+text-transform: uppercase;
+color:#FFFFFF;
+font-weight:bold;
+font-size: 22px;
+letter-spacing: 0.1rem;
+}
+#menu-forms a:hover{
+  color: #ffb4d1;
+}
+
+#info-cadastro{
+width: 50%;
+margin: 30px auto 30px;
+text-align: center;
+padding: 25px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

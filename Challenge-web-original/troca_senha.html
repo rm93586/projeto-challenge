@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/senha_style.css">
+    <title>Deu Match! Recuperar senha</title>
+</head>
+<body>
+    <header>
+        <img src="./img/Deu.png" alt="logo-marca deu match" id="logo-img">
+        <h1>Deu Match! Recuperar Senha</h1>
+    </header>
+    
+    <nav id="pagina-inicial">
+        <a href="index.html">Página Inicial</a>
+    </nav>
+        <div class="recupera-page">
+            <div class="form">
+            <form class="recupera-form" action="troca_senha.html" method="post">
+                <fieldset>
+                    <legend>
+                        Insira seu e-mail abaixo para recuperação de senha
+                    </legend>
+                    <div>
+                        <input id="emailCandidatoId" data-cy="cv-email" maxlength="100" data-field-name="email" placeholder="Ex.: joao_gabriel@gmai.com"> 
+                    </div>
+                    <div>
+                        <input type="submit" value="TROCAR SENHA" id="button-login">
+                    </div>
+                    <div id="menu-forms">
+                        <p><a href="./login.html">Login</a></p>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+        
+    
+    <div id="info-login">
+        <p>Área destinada ao candidato e ao recrutador, realizarem a troca de senha na plataforma. Será identificado como recrutador ou candidato conforme dados cadastrados em sistema. Se o usuário não possui cadastro será informado que o e-mail é inválido.</p>
+    </div>
+</body>
+</html>

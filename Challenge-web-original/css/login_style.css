@@ -1,0 +1,124 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+header h1{
+  background-color: #fc2c6e;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+}
+
+#pagina-inicial{  
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ff6e9c;
+}
+
+#pagina-inicial a{  
+  font-size: 14px;  
+  padding: 10px 10px;
+  margin-right: 25px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  background-color: #ff6e9c;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+}
+
+#pagina-inicial a:hover{
+  background-color:#fc3675;
+  border-radius: 10px;
+}
+#logo-img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login-page {
+  width: 30%;
+    margin: auto;
+    padding: 4% 0;
+}
+
+fieldset{
+  border: none;
+  padding-bottom: 20px;
+}
+
+fieldset legend{
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.form input {
+    
+    background: #f2f2f2;
+    width: 70%;
+    border: 0;
+    margin: 10px 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+  }
+ #button-login {
+    
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    background-color: #fc2c6e;
+    width: 50%;
+    min-width: 120px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+#button-login:hover{
+    background-color:#fa6594;
+}
+
+#menu-forms a{  
+  margin: 10px;  
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#fc2c6e;
+  font-weight:bold;
+  font-size: 12px;
+  letter-spacing: 0.1rem;
+  }
+#menu-forms p a:hover{
+    color: #fa6594;
+}
+
+#info-login{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
