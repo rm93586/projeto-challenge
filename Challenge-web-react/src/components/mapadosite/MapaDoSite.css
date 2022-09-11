@@ -1,0 +1,15 @@
+.mapaDoSite_lista ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mapa_esqueci_senha {
+    position: relative;
+    left: 2%;
+}
+
+.mapa_candidato, .mapa_recrutador {
+    position: relative;
+    left: 2%;
+}

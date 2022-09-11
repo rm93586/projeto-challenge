@@ -10,6 +10,7 @@ import Cadastro from "../components/cadastro/Cadastro";
     import Candidato from "../components/cadastro/candidato/Candidato";
     import Recrutador from "../components/cadastro/recrutador/Recrutador";
 import Parceiros from "../components/parceiros/Parceiros";
+import MapaDoSite from "../components/mapadosite/MapaDoSite";
 
 export default function MainRoutes() {
   return (
@@ -22,6 +23,7 @@ export default function MainRoutes() {
         <Route path="/cadastro/candidato" element={<Candidato/>} />
         <Route path="/cadastro/recrutador" element={<Recrutador/>} />
       <Route path="/parceiros" element={<Parceiros/>} />
+      <Route path="/mapadosite" element={<MapaDoSite/>} />
     </Routes>
     </>
   );

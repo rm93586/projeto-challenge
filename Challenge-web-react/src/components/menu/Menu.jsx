@@ -21,6 +21,7 @@ export default function Menu() {
                 <li><Link to="/login">Login</Link></li>
                 <li><Link to="/cadastro">Cadastre-se</Link></li>
                 <li><Link to="/parceiros">Parceiros</Link></li>
+                <li><Link to="/mapadosite">Mapa do Site</Link></li>
             </ul>
         </nav>
     </header>
