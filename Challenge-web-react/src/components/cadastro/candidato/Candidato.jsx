@@ -191,7 +191,7 @@ export default function Candidato() {
         </select>
         <label for="enderecoCandidatoId">Cidade</label>
         <div className="cidade">
-            <input id="enderecoCandidato" data-cy="cv-endereco" maxlength="20" data-field-name="cidade" placeholder="Ex.: São Paulo" required/> 
+            <input id="cidade" data-cy="cv-endereco" maxlength="20" data-field-name="cidade" placeholder="Ex.: São Paulo" required/> 
         </div>
         </div>
 
